@@ -6,7 +6,7 @@
       <class name="testScripts.FunctionalTestClass">
         <methods>
           <include name="afterTest"/>
-          <include name="mercuryTicketBooking"/>
+          <include name="mercuryTicketBooking" invocation-numbers="0 1 2"/>
           <include name="beforeTest"/>
           <include name="loginToApp"/>
           <include name="logoutApp"/>

@@ -55,7 +55,7 @@ public class FunctionalTestClass  extends Keywords{
 		
 		waitForElementTobeLoaded();
 		
-		String expectedTitleAfterLogin="Find a Flight: Mercury Tours:";
+		String expectedTitleAfterLogin="Login: Mercury Tours";
 		Assert.assertEquals(getActualTitle(),expectedTitleAfterLogin);
 	}
 	@AfterClass
@@ -112,7 +112,7 @@ public class FunctionalTestClass  extends Keywords{
 		}
 		
 try {
-	
+	clickOnButton("flightsLink");
 	clickOnButton("oneway");
 	
 	takeScreenShot("Booking Online Ticket");
